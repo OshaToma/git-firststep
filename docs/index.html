@@ -1,20 +1,22 @@
 <html>
   <head>
-    <title>ぽ〜とふぉりお</title>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <title>Hello My WebSite!</title>
   </head>
   <body>
-    <p>自己紹介</p>
-    <p>写真</p>
-    <img src="images/mypic.PNG" alt="自己紹介" title="あいちょん">
-    <p>角本歩尉（かくもとあい）</p>
-    <p>属性</p>
-    <ul>
-      <li>「あい」だけど♂です</li>
-      <li>駆け出しエンジニア</li>
-      <li>休日課長ならぬ週末ベーシスト</li>
-      <li>最近釣りに目覚める</li>
-      <li>Zoom飲み会幹事マン(お酒は最弱）</li>
-    </ul>
+    <p>Hello, ProtoOut!</p>
+
+    <div id="app">
+        {{ message }}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!'
+            }
+        })
+    </script>
   </body>
 </html>
