@@ -19,5 +19,9 @@
   "homepage": "https://github.com/AiKakumoto/git-firststep#readme",
   "dependencies": {
     "axios": "^0.19.2"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {}
 }
